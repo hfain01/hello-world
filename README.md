@@ -4,4 +4,4 @@
 sample foundation training
 
 ## Author
-- [hfain01] https://github.com/hfain01
+- [hfain01] (https://github.com/hfain01)
