@@ -1,4 +1,15 @@
-l;afgkdfgkd;g
-adgkdjgldjgkad
-akgja;dlgkja;dlfgj
-;alsdklgladgjl;dfg
+Git Release Notes (Git-1.9.4-preview20140929)
+Last update: 29 September 2014
+
+Introduction
+
+These release notes describe issues specific to the Git for Windows release.
+
+General release notes covering the history of the core git commands are included in the subdirectory doc/git/html of the installation directory. Look for files starting with RelNotes.
+
+See http://git-scm.com/ for further details about Git including ports to other operating systems. Git for Windows is hosted at http://msysgit.github.com/.
+
+Known issues
+•	Some commands are not yet supported on Windows and excluded from the installation; namely: git archimport, git cvsexportcommit, git cvsimport, git cvsserver, git instaweb, git shell.
+•	As Git for Windows is built without Python support, all Git commands requiring Python are not yet supported; namely: git p4, git remote-hg, git remote-testgit.
+•	The Logitec QuickCam software can cause spurious crashes. See "Why does make often crash creating a sh.exe.stackdump file when I try to compile my source code?" on the MinGW Wiki 
